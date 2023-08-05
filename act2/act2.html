@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Html Forms Assignment</title>
+</head>
+<body>
+
+      <!---Forms------>
+
+      <form action="POST">
+        <h1>Contact Us</h1>
+        
+        <label for="name">
+          Name: 
+          <input type="text" />
+        </label>
+        <label for="email">
+          Email: 
+          <input type="email" />
+        </label>
+        <label for="message">
+          Message:
+          <textarea name="message" id="textarea" cols="30" rows="10"></textarea>
+        </label>
+        
+        <input value="Submit" type="submit">
+
+
+
+      </form>
+
+      <form action="POST">
+        <h1>Login form: </h1>
+
+        <label for="username">
+          Username: 
+        <input type="text">
+        </label>
+        <label for="password">
+          Password: 
+        <input type="password">
+        </label>
+        <input value="Login" type="submit">
+
+      </form>
+
+      <form action="POST">
+        <h1>Survey</h1>
+
+        <label for="name">
+          Name:
+          <input type="text">
+         </label>
+        
+        <label for="age">
+          Age: 
+          <input type="number">
+        </label>
+        <br>
+        <label for="gender">Gender: </label>
+        <br>
+        <label>
+          <input type="radio" name="gender" value="male">
+          Male
+        </label>
+        <br>
+        <label>
+          <input type="radio" name="gender" value="female">
+          Female
+        </label>
+        <br>
+        <label>
+          <input type="radio" name="gender" value="other">
+          Other
+        </label>
+        <br>
+        <label for="language">Which programming language do you know?</label>
+        <br>
+        <label>
+          <input type="checkbox" name="language" value="python">
+          python
+        </label>
+        <br>
+        <label>
+          <input type="checkbox" name="language" value="C++">
+          C++
+        </label>
+        <br>
+        <label>
+          <input type="checkbox" name="language" value="javaScript">
+          javaScript
+        </label>
+        <br>
+        <label>
+          <input type="checkbox" name="language" value="C">
+          C
+        </label>
+        <br>
+        <label>
+          <input type="checkbox" name="language" value="Java">
+          Java
+        </label>
+        <br>
+        <label>
+          <input type="checkbox" name="language" value="Php">
+          Php
+        </label>
+        <br>
+        <label>
+          <input type="checkbox" name="language" value="etc.">
+          etc.
+        </label>
+        <br>
+        <label>
+          Comments:
+          <textarea name="message" id="textarea" cols="30" rows="10"></textarea>
+        </label>
+        <input type="submit">
+        
+      </form>
+
+</body>
+</html>
